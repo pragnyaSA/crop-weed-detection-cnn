@@ -1,0 +1,24 @@
+# Data & models (too large for git — see data/README.md for download instructions)
+data/raw/
+data/processed/
+# data/sample/ is intentionally tracked — a small demo dataset for quick testing
+models/*.keras
+models/*.h5
+!models/.gitkeep
+!models/best_model.keras
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (regenerate by running training) — demo plots in results/ are intentionally tracked
